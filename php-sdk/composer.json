@@ -1,0 +1,23 @@
+{
+    "name": "payin/php-sdk",
+    "description": "PayIN Payment GateWay",
+    "type": "library",
+    "authors": [
+    {
+        "name": "Nephtali Nlandu",
+        "email": "nephtalinlandu@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload":
+    {
+        "psr-0":
+        {
+            "PayIN": "src/"
+        }
+    }
+}

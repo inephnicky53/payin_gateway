@@ -1,0 +1,17 @@
+{
+    "name": "ineph/payin",
+    "authors": [
+        {
+            "name": "Nephtali Nlandu",
+            "email": "nephtalinlandu@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "PayIN": "php-sdk/src/"
+        }
+    }
+}
